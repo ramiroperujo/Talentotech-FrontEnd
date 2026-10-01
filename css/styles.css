@@ -9,7 +9,7 @@ html {
     font-size: 62.5%;
 }   
 
-body{
+body {
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     background-color: #533188;  
@@ -20,7 +20,7 @@ body{
     min-height: 100vh;
 }
 
-main{
+main {
     width: 80%;
     margin: auto;
     padding-bottom: 2rem;
@@ -32,25 +32,25 @@ main{
     align-items: center;
 }
 
-h1{
+h1 {
     font-size: 3rem;
-    font-weight: 700;
-    line-height: 1.25;
-    margin: 2rem 0;
+    font-weight: 800;
+    line-height: 1.15;
+    margin: 3rem 0;
 }
 
-h2{
-    color: #9c7bb0;
-    font-size: 2.5rem;
+h2 {
+    color: #fff7fb;
+    font-size: 2.4rem;
     font-weight: 700;
-    line-height: 1.25;
+    line-height: 1.2;
     text-align: center;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
-.btn{
+.btn {
     border:none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
     padding: 1.6rem;
     border-radius: 1rem;
@@ -145,8 +145,9 @@ footer .footer-list{
 .parrafo{
     width: 80%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 3rem;
+
 }
 
 .contenedor-tarjetas{
@@ -154,11 +155,12 @@ footer .footer-list{
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+    
 }
 
 .card{
     background-color: #9c7bb0;
-    width: 40rem;
+    width: 30rem;
     border-radius: 1rem;
     overflow: hidden;
     
@@ -194,7 +196,7 @@ footer .footer-list{
     width: 100%;
     max-width: 50rem;
 
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 2rem;
     border-radius: 1rem;
     
