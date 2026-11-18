@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "nombre": "Meta Quest 3",
+        "precio": 100,
+        "img": "img/meta Quest 3.jpg"
+    },
+
+    {
+        "id": 2,
+        "nombre": "Meta Quest 3S",
+        "precio": 200,
+        "img": "img/meta quest 3s.jpg"
+    },
+
+    {
+        "id": 3,
+        "nombre": "Kat Walk C2",
+        "precio": 300,
+        "img": "img/kat walk c2.jpg"
+    },
+
+    {
+        "id": 4,
+        "nombre": "SteamVR",
+        "precio": 400,
+        "img": "img/steamvr.jpg"
+    }
+]

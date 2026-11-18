@@ -10,29 +10,41 @@
 
     <link rel="stylesheet" href="../css/styles.css" />
 
-    <title>Carrito en construcción</title>
+    <title>Carrito</title>
 </head>
 <body>
-    <header>
+    <script src="../js/carrito.js" type="module"></script>
+    <header class="header">
         
     <div class="div-logo"><a class="logo" href="../index.html">LOGO</a></div>
     
     <nav class="header-nav">
         <ul>
             <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./carrito.html">Carrito</a></li>
-            <li><a href="../pages/contacto.html">Contacto</a></li>
+            <li><a href="./carrito.html" class="carrito-icono">🛒<span id="contador-carrito"></span>
+            </a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
         </ul>
     </nav>
     
     </header>   
 
     <main>
-        <h1>Carrito en construcción</h1>
+        <h1>Carrito de Compras</h1>
+        <section id="contenedor-carrito" class="contenedor-tarjetas">
+
+        </section>
+
+        <div id="acciones-carrito" class="acciones-carrito">
+        </div>
+        
+        <section id="resumen-carrito">  
+
+        </section>
         
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>Tienda realizada por Ramiro Perujo. Todos los derechos reservados.</p>
         <nav>
             <ul class="footer-list">
@@ -40,6 +52,7 @@
                 <li><img src="../img/instagram.png" alt="logo instagram"> </li>
             </ul>
         </nav>
+
     </footer>
 </body>
 </html>
